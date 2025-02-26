@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konos Aviation - Sicurezza del Volo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #003366;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .partner-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .partner-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="Logo.docx" alt="Konos Aviation Logo"> <!-- Assicurati di convertire il file in un formato immagine -->
+        <h1>Konos Aviation</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Chi Siamo</a></li>
+                <li><a href="#certificate">Certificato</a></li>
+                <li><a href="#partners">Aziende Certificate</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Benvenuti su Konos Aviation</h2>
+        <p>Siamo leader nella promozione della sicurezza del volo tramite certificati rigorosi e controlli periodici.</p>
+        <button onclick="window.location.href='#certificate'">Scopri il nostro Certificato</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Chi Siamo</h2>
+        <p>Da Konos Aviation ci impegniamo a garantire la massima sicurezza nei servizi aeronautici attraverso standard elevati e formazione continua.</p>
+    </section>
+
+    <!-- Certificate Section -->
+    <section id="certificate">
+        <h2>Il Certificato Konos Aviation</h2>
+        <p>Il nostro certificato garantisce:</p>
+        <ul>
+            <li>Salute psicofisica dei lavoratori</li>
+            <li>Formazione obbligatoria in sicurezza del volo</li>
+            <li>Rispetto delle normative internazionali</li>
+        </ul>
+        <p>Le aziende certificate possono esporre il nostro certificato per dimostrare il loro impegno verso la sicurezza.</p>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners">
+        <h2>Aziende Certificate</h2>
+        <div class="partner-list">
+            <div class="partner-item">
+                <h3>Azienda 1</h3>
+                <p>Breve descrizione dell'azienda.</p>
+            </div>
+            <div class="partner-item">
+                <h3>Azienda 2</h3>
+                <p>Breve descrizione dell'azienda.</p>
+            </div>
+            <div class="partner-item">
+                <h3>Azienda 3</h3>
+                <p>Breve descrizione dell'azienda.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Servizi</h2>
+        <ul>
+            <li>Audit e valutazioni iniziali</li>
+            <li>Formazione personalizzata per il personale</li>
+            <li>Supporto continuo durante i controlli periodici</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contatti</h2>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Messaggio"></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Konos Aviation. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>
